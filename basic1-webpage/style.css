@@ -1,0 +1,158 @@
+.main{
+  width: 100%;
+  margin: auto;
+}
+
+.profile:before, .profile:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
+
+.profile h1{
+  font-family: monospace;
+  width: 40%;
+  margin-left: 4px;
+  text-decoration: underline
+  text-align: left;
+  padding-right:10px;
+  float: left;
+}
+
+.profile img{
+width: 70%;
+border-radius: 25px;
+margin-top: 15px;
+}
+
+
+.city h1{
+font-family: monospace;
+margin-left: 4px;
+text-decoration: underline;
+text-align: center;
+}
+
+.city h2{
+  padding-left: 4px;
+  padding-top: 15px;
+}
+
+.city img{
+width: 50%;
+padding: 15px;
+float: left;
+}
+
+.city p{
+  padding: : 4px;
+  text-align: justify;
+}
+
+.city:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#bold{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.lang h1{
+  font-family: monospace;
+  text-decoration: underline;
+  margin-left: 4px;
+  text-align: center;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 4px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:white;
+    color: black;
+}
+
+
+.place{
+  width: 100%;
+}
+
+.place h1{
+font-family: monospace;
+margin-left: 4px;
+text-align: center;
+text-decoration: underline;
+}
+.site h2{
+  text-align: center;
+}
+.site img{
+float:left;
+margin:1em;
+width: 40%;
+overflow: hidden;
+}
+
+.site p{
+  text-align: justify;
+
+}
+
+ .site:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media screen and (min-width: 700px)
+ {
+   .profile{
+     display: flex;
+     padding: 1px;
+     margin: 1%;
+   }
+
+   .profile img{
+     padding: 10px;
+     width: 50%;
+
+   }
+   .site {
+     float: left;
+     width: 30%;
+     margin:1%;
+   }
+
+   .site p{
+     text-align: justify;
+     padding-top: 10px;
+   }
+
+    .site:before{
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+}
