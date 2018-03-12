@@ -320,7 +320,7 @@ pre > code {
   white-space: pre; }
 
 
-/* Tables<div class="container">
+/* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
@@ -363,7 +363,7 @@ form {
   width: 100%;
   box-sizing: border-box; }
 .u-max-full-width {
-  max-width: 100%;<div class="container">
+  max-width: 100%;
   box-sizing: border-box; }
 .u-pull-right {
   float: right; }
@@ -391,45 +391,26 @@ hr {
   display: table;
   clear: both; }
 
-  /* MY OWN CSS*/
-  #center{
-    text-align: center;
-    border-bottom: 1px solid black;
+/*my own*/
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
 
-  }
+.row{
+  text-align: center;
+}
 
-  .break{
-    border-bottom: 1px solid black;
-    width: 100%;
-  }
-  .four.columns img {
-    float: left;
-    margin: 1em;
-    overflow: hidden;
-  }
+.button{
+  background-color: #99e6ff;
+}
 
-  img{
-    width:100%;
-  }
-
-  .align{
-    text-align: justify;
-  }
-
-  #shade{
-    background-color: #f2f2f2;
-    text-align: center;
-  }
-
-  h4{
-    text-align: center;
-    padding-top:4px;
-  }
-
-
+body{
+  background-color: #e6ffe6
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*<div class="container">
+/*
 Note: The best way to structure the use of media queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
 on small devices, paste the mobile query code up in the buttons section and style it
