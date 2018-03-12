@@ -9,10 +9,12 @@
   clear: both;
 }
 
+.profile{
+  text-align: center;
 }
 
 .profile h1{
-  font-family: monospace;
+  font-family: font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 40%;
   margin-left: 4px;
   text-decoration: underline
@@ -22,7 +24,7 @@
 }
 
 .profile img{
-width: 70%;
+width: 50%;
 border-radius: 25px;
 margin-top: 15px;
 }
