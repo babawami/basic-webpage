@@ -130,6 +130,12 @@ overflow: hidden;
 
 @media screen and (min-width: 700px)
  {
+
+   .city img{
+     width: 550px;
+     height: 220px;
+   }
+
    .profile{
      display: flex;
      padding: 1px;
@@ -138,7 +144,8 @@ overflow: hidden;
 
    .profile img{
      padding: 10px;
-     width: 50%;
+     width: 450px;
+     height: 220px;
 
    }
    .site {
