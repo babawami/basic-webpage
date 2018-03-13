@@ -27,6 +27,7 @@
 width: 45%;
 border-radius: 25px;
 margin-top: 15px;
+padding: 15px;
 }
 
 
@@ -158,3 +159,12 @@ overflow: hidden;
    }
 
 }
+
+@media screen and (max-width: 375px)
+ {
+   .city img{
+   width: 300px;
+   padding: 15px;
+   {
+
+ }
